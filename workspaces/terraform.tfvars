@@ -1,0 +1,1 @@
+ami_value = "ami-0261755bbcb8c4a84"
