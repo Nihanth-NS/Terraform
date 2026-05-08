@@ -3,15 +3,15 @@ provider "aws" {
 }
 
 provider "vault" {
-  address = "http://15.135.141.207:8200"
+  address = "http://ip_address:8200"
   skip_child_token = true
 
   auth_login {
     path = "auth/approle/login"
 
     parameters = {
-      role_id = "51783112-9f24-ec0c-1f3c-006f2f850fbb"
-      secret_id = "e86aa165-234a-eaa1-02c4-5d5191fec544"
+      role_id = ""
+      secret_id = ""
     }
   }
 }
